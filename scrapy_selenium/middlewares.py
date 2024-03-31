@@ -141,5 +141,5 @@ class SeleniumMiddleware:
 
     def spider_closed(self):
         """Shutdown the driver when spider is closed"""
-
+        print("CUSTOM_SCRAPY_TERMINATOR_a3rd")
         self.driver.quit()
